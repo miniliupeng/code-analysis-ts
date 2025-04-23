@@ -10,5 +10,6 @@ function doWell() {
 
 function getInfos(info: string) {
   const result = app.get(info);
+  window.history.back();
   return result;
 }
